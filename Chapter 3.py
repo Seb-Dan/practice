@@ -124,3 +124,5 @@ tess = turtle.Turtle()
 # wn.mainloop()
 
 #Exercise 13
+
+# print(type(tess))
