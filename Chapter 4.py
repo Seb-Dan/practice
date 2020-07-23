@@ -52,34 +52,118 @@
 
 #Exercise 2
 
+# import turtle
+
+# def draw_square(t,d):
+#     """This function will draw a square"""
+#     for i in range(4):
+#         t.forward(d)
+#         t.left(90)
+
+# def draw_shape(t):
+#     """This function will draw the shape"""
+#     t.penup()
+#     t.right(135)
+#     t.forward(15)
+#     t.pendown()
+#     t.left(135)
+
+# wn = turtle.Screen()
+# wn.bgcolor("lightgreen")
+
+# tess = turtle.Turtle()
+# tess.color("hotpink")
+# tess.pensize(3)
+
+# size = 0
+# for i in range(5):
+#     size = size + 20
+#     draw_square(tess,size)
+#     draw_shape(tess)
+    
+
+# wn.mainloop()
+
+#Exercise 3
+
+# import turtle
+
+# def draw_poly(t, n, sz):
+#     for i in range(n):
+#         t.forward(sz)
+#         t.left(45)    
+
+# wn = turtle.Screen()
+# wn.bgcolor("lightgreen")
+
+# tess = turtle.Turtle()
+# tess.color("hotpink")
+# tess.pensize(3)
+
+# for i in range(1):
+#     draw_poly(tess, 8, 50)
+
+# wn.mainloop()
+
+#Exercise 4
+
 import turtle
 
-def draw_square(t,d):
-    """This function will draw a square"""
-    for i in range(4):
-        t.forward(d)
-        t.left(90)
 
-def draw_shape(t):
-    """This function will draw the shape"""
-    t.penup()
-    t.right(135)
-    t.forward(15)
-    t.pendown()
-    t.left(135)
+# def draw_square(t,d):
+#     """This function will draw a square"""
+#     for i in range(5):
+#         t.forward(d)
+#         t.left(90)
+        
 
 wn = turtle.Screen()
 wn.bgcolor("lightgreen")
 
 tess = turtle.Turtle()
 tess.color("hotpink")
-tess.pensize(3)
+tess.pensize(2)
+tess.speed(100)
 
-size = 0
-for i in range(5):
-    size = size + 20
-    draw_square(tess,size)
-    draw_shape(tess)
+# angle = 0
+
+# def squarethingy():
+#     for i in range(4):
+#         tess.forward(100)
+#         tess.left(90)
+
+# def squarev2():
+#     squarethingy()
+#     tess.left(18)
+
+# for i in range(20):
+#     squarev2()
+    
+# # def shapezilla(t,n):
+# #     for i in range(4):
+# #         draw_square(t,n)
+# #         tess.forward(n)
+
+
+# # for i in range(10):
+# #     shapezilla(tess,200)
+# #     tess.home()
+# #     tess.left(36)
     
 
-wn.mainloop()
+# wn.mainloop()
+
+#exercise 5
+
+# def path(t,l):
+#     t.forward(l)
+#     t.right(90)
+
+# length = 0
+# tess.right(90)
+# for i in range(100):
+#     length = length + 3
+#     path(tess,length)
+#     tess.left(1)
+
+# wn.mainloop()
