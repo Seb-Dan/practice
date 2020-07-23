@@ -167,3 +167,39 @@ tess.speed(100)
 #     tess.left(1)
 
 # wn.mainloop()
+
+#Exercise 6
+
+# def draw_poly(t, n, sz):
+#     t.forward(sz)
+#     t.left(360/n)
+
+
+# def draw_equitriangle(t,sz):
+#     for i in range(3):
+#         draw_poly(t,3,sz)
+#         t.forward(sz)
+
+# draw_equitriangle(tess,100)
+
+
+
+# # def draw_equitriangle(t, sz):
+# #     draw_poly(tess, 3, 100)
+
+# wn.mainloop()
+
+
+#Exercise 7
+
+
+
+# def sum_to(n):
+#     sum=0
+#     for i in range(n+1):
+#         sum = sum + i
+#     return sum
+
+# print(sum_to(10))
+
+#Exercise 8
