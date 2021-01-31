@@ -1,0 +1,5 @@
+
+*.pyc
+discord bot/.env
+discord bot/cogs/.env
+discord bot/.ipynb_checkpoints/plm-checkpoint.py
